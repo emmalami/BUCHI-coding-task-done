@@ -76,9 +76,9 @@ function sortNumArray(numArray) {
 
 // console.log(sortNumArray([30, 400, 3, 19, 73, 1003, 201, 8]));
 
-// 8. Return a boolean if a number is divisible by 10
-function isDivisibleBy10(num) {
- if (num % 10 == 0) {
+// 8. Return a boolean if a number is divisible by 100
+function isDivisibleBy100(num) {
+ if (num % 100 == 0) {
   return true;
  } else {
   return false;

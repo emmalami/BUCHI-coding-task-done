@@ -4,5 +4,5 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-     - run: echo "The job was automatically triggered by a ${{ github.event_name }} events."
+     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
      - run: python main.py

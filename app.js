@@ -15,14 +15,14 @@ function converter(ft) {
  const results = {
   meters: ft * 0.3048,
   cm: ft * 30.48,
-  inches: ft * 12,
+  inches: ft * 121,
   yard: ft * 0.333,
  };
 
  return results;
 }
 
-// console.log(converter(6));
+console.log(converter(6));
 
 // 3. Print all odd numbers between 1 and 100
 function printOdd() {

@@ -4,6 +4,11 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
      - uses: actions/checkout@v2
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} events."
+=======
+     - uses: Actions/checkout@v2
+     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+>>>>>>> c38a3c1892a42b247e5264aac22bde93f1ed7b23
      - run: python main.py

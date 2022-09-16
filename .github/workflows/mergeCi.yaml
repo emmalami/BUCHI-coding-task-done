@@ -1,5 +1,8 @@
-name: Merge demo
-on: [ pull_request ]
+name: Merge CI
+on:
+  push:
+  pull_request:
+   types: [opened, synchronize]
 jobs:
   Test:
     runs-on: ${{ matrix.os }}

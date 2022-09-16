@@ -1,4 +1,4 @@
-name: Merge CI
+name: Merge demo
 on: [ pull-request ]
 jobs:
   Test:

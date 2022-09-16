@@ -1,11 +1,8 @@
 name: Merge demo
-on: [ pull_request ]
+on: [ pull ]
 jobs:
   Test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-    matrix:
-        os: [ windows-latest, macos-latest, ubuntu-latest ]
+    runs-on: windows-latest
     steps:
      - uses: actions/checkout@v2
      - run: main.py

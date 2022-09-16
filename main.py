@@ -1,3 +1,2 @@
-print('hello CICD Test')
-print('An update done')
-print('make done')
+print("hello work")
+print("hello ish")

@@ -22,7 +22,7 @@ function converter(ft) {
  return results;
 }
 
-// console.log(converter(6));
+console.log(converter(6));
 
 // 3. Print all odd numbers between 1 and 100
 function printOdd() {

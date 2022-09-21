@@ -1,4 +1,4 @@
-name: Merge CI
+name: Merge CICD
 on:
   pull_request:
    types: [opened, synchronize]
